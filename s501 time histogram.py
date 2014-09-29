@@ -1,5 +1,15 @@
 """
 Read data from station 501 and plot t1-t2 histogram
+
+Goal: recreate graphs form D.Pennink 2010
+
+29sep: created
+29sep: TODO consider dt = t1-t2; select events based on ph2 and/or ph2 (cp-gamma, gamma-cp and/or gamma-gamma) plot histogram and fit gaussian
+
+ph1 > TRIGGER = charged particle
+ph1 < TRIGGER = gamma
+
+Find out value of TRIGGER (70mV ???? Read pennink 2010)
 """
 
 import tables
